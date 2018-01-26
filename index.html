@@ -4,14 +4,18 @@
     <meta charset="utf-8">
     <title>Clock</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
+    <script src="./clock.js"></script>
   </head>
   <body>
     <div id="clock">
-      <img id="face" src="img/clockface.png"/>
-      <img id="second" title="0" src="img/second-hand.png"/>
-      <img id="minute" title="0" src="img/minute-hand.png"/>
-      <img id="hour" title="0" src="img/hour-hand.png"/>
+      <img id="face" src="./img/clockface.png"/>
+      <div id="month"></div>
+      <div id="day"></div>
+      <div id="year"></div>
+      <img id="second" src="./img/second-hand.png"/>
+      <img id="minute" src="./img/minute-hand.png"/>
+      <img id="hour" src="./img/hour-hand.png"/>
     </div>
-    <script src="clock.js"></script>
   </body>
 </html>

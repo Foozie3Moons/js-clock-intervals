@@ -1,9 +1,34 @@
 #clock {
-  z-index: 0;
 }
 
 #clock img {
   position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#clock div {
+  position: absolute;
+  margin: auto;
+  border: 1px solid black;
+  padding: 2px;
+}
+
+#day {
+  top: 50%;
+  left: 44%;
+}
+#month {
+  top: 50%;
+  left: 40%;
+}
+
+#year {
+  top: 50%;
+  right: 43%;
 }
 
 #hour {
